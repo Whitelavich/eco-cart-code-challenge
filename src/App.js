@@ -70,7 +70,7 @@ class Hero extends Component{
             {
               img : response.data.image_url,
               artist : response.data.name,
-              followers : response.data.tracker_count.toLocaleString() + 'followers'
+              followers : response.data.tracker_count.toLocaleString() + ' followers'
             }
           )
         }else{
